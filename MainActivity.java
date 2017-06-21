@@ -515,7 +515,6 @@ public class MainActivity extends Activity {
                     // And do not forget to unregister your wifi state listener on the onStop() or onDestroy() method
                     connector.unregisterWifiStateListener();
                 }
-
 //            }
 
         } catch (SecurityException e) {
